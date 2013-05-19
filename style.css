@@ -1,0 +1,66 @@
+/*   
+Theme Name: Origin
+Theme URI: http://www.orgin.com
+Description: I built this theme from ground up
+Author: Trong Nghia
+Author URI: http://www.cvcot.edu.vn
+Version: 1.3
+*/
+
+@media screen {
+* { margin: 0; padding: 0; }    
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+ul, ol {list-style: none;}
+strong {font-weight: bold;}
+
+article, aside, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.group { display: inline-block; clear: both; }
+/* start commented backslash hack \*/ * html .group { height: 1%; } .group { display: block; } /* close commented backslash hack */
+
+body { font: 12px/2 "Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+/*
+	TYPOGRAPHY
+*/
+h1, h2, h3, h4, h5 {}
+a img { border: 0; }
+a {color: #ce9702; text-decoration: none;}
+.zoomer:active { top: 0; }
+/* end screen */
+
+/******MAIN STRUCTURE******/
+#page-wrap {margin: 0 auto; width: 1000px;}
+#header {height: 116px; padding: 60px 0px 0px 10px; background: url(images/header-bg.jpg) no-repeat top right;}
+#header h1 a {display: block; width: 197px; height: 63px; background: url(images/logo.png) no-repeat top left; text-indent: -99999px;}
+#top-bar {border-top: 1px dashed #359cc3; border-bottom: 1px dashed #359cc3; padding: 1px 0 0 0;}
+#menu-page-menu li {position: relative; float: left;}
+#menu-page-menu li a {display: block; float: left; padding: 0px 10px; font-size: 16px; color: #545454; border-right: 1px solid white; border-bottom: 1px solid white;}
+#menu-page-menu li a:hover {color: white; background-color: #bcd4da;}
+#menu-page-menu li ul {position: absolute; top: 100%; width: 10em; display: none; z-index: 10000;}
+#menu-page-menu li:hover ul {display: block;}
+#menu-page-menu li ul li a{float: none; font-size: 14px; border-left: 1px solid white; border-right: 1px solid white;}
+#menu-page-menu li ul li {background-color: #bcd4da; width: 100%;}
+#menu-page-menu li ul li a:hover {background-color: #d7e7ea; color: #31576e;}
+#page-info {margin: 25px 0px; overflow: hidden;}
+#featured {float: left;}
+#facebook {float: right;}
