@@ -1,4 +1,4 @@
-/*   
+/*
 Theme Name: Origin
 Theme URI: http://www.orgin.com
 Description: I built this theme from ground up
@@ -8,7 +8,7 @@ Version: 1.3
 */
 
 @media screen {
-* { margin: 0; padding: 0; }    
+* { margin: 0; padding: 0; }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,7 +48,7 @@ a {color: #ce9702; text-decoration: none;}
 .zoomer:active { top: 0; }
 /* end screen */
 
-/******MAIN STRUCTURE******/
+/****** HEADER ******/
 #page-wrap {margin: 0 auto; width: 1000px;}
 #header {height: 116px; padding: 60px 0px 0px 10px; background: url(images/header-bg.jpg) no-repeat top right;}
 #header h1 a {display: block; width: 197px; height: 63px; background: url(images/logo.png) no-repeat top left; text-indent: -99999px;}
@@ -64,3 +64,50 @@ a {color: #ce9702; text-decoration: none;}
 #page-info {margin: 25px 0px; overflow: hidden;}
 #featured {float: left;}
 #facebook {float: right;}
+
+/****** MAIN STRUCTURE ******/
+#content-wrap {width: 100%; overflow: hidden;}
+#first-sidebar {width: 197px; float: left;}
+#main-content {width: 540px; float: left; margin: 0px 15px;}
+#second-sidebar {width: 229px; float: right;}
+.widget {margin: 0px 0px 20px 0px;}
+.widget h2 {padding: 3px 0px 3px 10px; color: white; font-size: 16px; background-color: #bcd4da;}
+#menu-categories-menu {padding: 5px;}
+#menu-categories-menu li a {color: #666; display: block; padding: 0px 0px 5px 0px; border-bottom: 1px solid #bcd4da;}
+#menu-categories-menu li a:hover {color: #ce9702;}
+.widget p {padding: 0px 3px;}
+.widget h4 a {font: bold 12px verdana, sans-serif;}
+.date {text-decoration: underline; color: #898989; text-align: right; font-size: 11px;}
+
+/****** MAIN CONTENT ******/
+#main-content h2 {padding: 5px 0px 0px 15px; color: white; font-size: 16px; background: url(images/cat-bg.png) no-repeat top left; border-bottom: 1px solid #bcd4da;}
+#main-content h2 a {color: white;}
+.post {position: relative;}
+.post h3 {margin: 16px 0px 0px 158px; font-size: 18px;}
+.post h3 a:hover {text-decoration: underline;}
+.post img {float: left; margin: 0px 15px;}
+.post p {margin-left: 158px;}
+.post .meta-data {margin: 15px 0px; border-top: 1px solid #bcd4da; border-bottom: 1px solid #bcd4da; padding: 5px;}
+.readmore {position: absolute; bottom: 7px; right: 0px;}
+.post-edit-link {float: right;}
+a.readmore:hover {text-decoration: underline;}
+.comment-link {position: absolute; top: 0px; right: 0px; display: block; width: 43px; height: 36px; padding-top: 5px; font-weight: bold; color: #ce9702; text-align: center; background: url(images/comment-bubble-rtl.png) no-repeat top left;}
+.comment-link:hover {color: #c06;}
+
+/****** SECOND SIDEBAR ******/
+.tabs {height: 33px; border-left: 1px solid #bcd4da;}
+.tabs li {float: left; line-height: 31px; border: 1px solid #bcd4da; border-left: none; margin-bottom: -2px;}
+.tabs li a {color: white; display: block; padding: 0 14px; background-color: #bcd4da; border: 1px solid white;}
+.tabs li:last-child a {padding: 0px 16px 0px 17px;}
+.tabs li a:hover {background-color: #d7e7ea;}
+.tabs li a.active {background-color: #d7e7ea; color: #31576e;}
+.tab-container {border: 1px solid #bcd4da; border-top: none; margin: 0px 0px 20px 0px;}
+.tab-content {padding: 15px;}
+.tab-content ul li {border-bottom: 1px dotted #bcd4da; padding: 0px 7px;}
+.tab-content ul li a {color: #666;}
+.tab-content ul li a:hover {color: #ce9702;}
+
+/****** FOOTER ******/
+#footer {position: relative; border-top: 4px solid #359cc3; height: 120px; line-height: 120px; background: url(images/footer-bg.jpg) repeat top left; clear: both;}
+#footer p {text-align: center; color: #848484; text-transform: uppercase; font-size: 14px;}
+#footer img {position: absolute; top: 8px; right: 250px;}
