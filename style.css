@@ -53,6 +53,9 @@ a {color: #ce9702; text-decoration: none;}
 #header {height: 116px; padding: 60px 0px 0px 10px; background: url(images/header-bg.jpg) no-repeat top right;}
 #header h1 a {display: block; width: 197px; height: 63px; background: url(images/logo.png) no-repeat top left; text-indent: -99999px;}
 #top-bar {border-top: 1px dashed #359cc3; border-bottom: 1px dashed #359cc3; padding: 1px 0 0 0;}
+#searchBox {float: right; margin: 5px 0px 0px;}
+#s {padding: 3px;}
+#menu-page-menu {float: left;}
 #menu-page-menu li {position: relative; float: left;}
 #menu-page-menu li a {display: block; float: left; padding: 0px 10px; font-size: 16px; color: #545454; border-right: 1px solid white; border-bottom: 1px solid white;}
 #menu-page-menu li a:hover {color: white; background-color: #bcd4da;}

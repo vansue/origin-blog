@@ -49,7 +49,10 @@
 			</ul>
 
 			<div id='searchBox'>
-				<!--google search goes here-->
+				<form id='search-form' action="" method="get">
+					<input type="text" name="s" id='s' value="" />
+					<input type="submit" name="submit" value="Search" />
+				</form>
 			</div>
 		</div><!--end top-bar-->
 
@@ -74,7 +77,17 @@
 			</div><!--end featured-->
 
 			<div id='facebook'>
-				<img src="images/facebook.jpg" alt="facebook" />
+				<div id="fb-root"></div>
+				<script>
+				(function(d, s, id) {
+					 var js, fjs = d.getElementsByTagName(s)[0];
+					 if (d.getElementById(id)) return;
+					 js = d.createElement(s); js.id = id;
+					 js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1";
+					 fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+				</script>
+				<div class="fb-facepile" data-href="https://www.facebook.com/izwebz.fans" data-size="large" data-max-rows="4" data-width="225"></div>
 			</div>
 		</div><!--end page-info-->
 
